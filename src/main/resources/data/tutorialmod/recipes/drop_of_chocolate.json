@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 300,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "minecraft:cocoa_beans"
+  },
+  "result": "tutorialmod:drop_of_chocolate"
+}
