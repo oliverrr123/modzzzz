@@ -13,11 +13,11 @@ public class Chocolate extends Item {
         super(properties);
     }
 
-    @Override
-    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
-        if (!level.isClientSide() && hand==InteractionHand.MAIN_HAND) {
-            player.sendSystemMessage(Component.literal("chocolat"));
-        }
-        return super.use(level, player, hand);
-    }
+//    @Override
+//    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
+//        if (!level.isClientSide() && hand==InteractionHand.MAIN_HAND) {
+//            player.sendSystemMessage(Component.literal("chocolat"));
+//        }
+//        return super.use(level, player, hand);
+//    }
 }
