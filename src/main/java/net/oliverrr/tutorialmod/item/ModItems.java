@@ -16,12 +16,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Item> ZIRCON = ITEMS.register("zircon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
-
-    public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
-
     public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate",
             () -> new Chocolate(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).food(Foods.CHOCOLATE_FOOD)));
 
