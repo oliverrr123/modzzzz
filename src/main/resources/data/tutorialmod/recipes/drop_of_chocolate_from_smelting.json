@@ -1,11 +1,8 @@
 {
-  "type": "minecraft:smoking",
-  "cookingtime": 150,
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
   "experience": 0.1,
   "ingredient": [
-    {
-      "item": "minecraft:cocoa_beans"
-    },
     {
       "item": "tutorialmod:chocolate"
     },

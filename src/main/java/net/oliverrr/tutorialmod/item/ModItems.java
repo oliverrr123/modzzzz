@@ -4,6 +4,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.oliverrr.tutorialmod.TutorialMod;
 import net.oliverrr.tutorialmod.item.custom.Chocolate;
+import net.oliverrr.tutorialmod.item.custom.ChocolateSword;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -21,6 +24,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> DROP_OF_CHOCOLATE = ITEMS.register("drop_of_chocolate",
             () -> new Chocolate(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
+    public static final RegistryObject<Item> CHOCOLATE_SWORD = ITEMS.register("chocolate_sword",
+            () -> new ChocolateSword(Tiers.STONE, 5, 1.6f,
+                    new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).stacksTo(1)));
 
     public static class Foods {
         public static final FoodProperties CHOCOLATE_FOOD = new FoodProperties.Builder()
