@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "tutorialmod:chocolate"
+    },
+    {
+      "item": "tutorialmod:block_of_chocolate"
+    }
+  ],
+  "result": "tutorialmod:drop_of_chocolate"
+}

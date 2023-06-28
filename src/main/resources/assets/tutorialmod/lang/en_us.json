@@ -1,5 +1,12 @@
 {
   "item.tutorialmod.zircon": "Zircon",
   "item.tutorialmod.raw_zircon": "Raw Zircon",
-  "item.tutorialmod.multitool": "Multitool"
+  "item.tutorialmod.multitool": "Multitool",
+  "item.tutorialmod.chocolate": "Chocolate",
+  "item.tutorialmod.drop_of_chocolate": "Drop Of Chocolate",
+  "item.tutorialmod.chocolate_sword": "Chocolate Sword",
+
+  "block.tutorialmod.block_of_chocolate": "Block of Chocolate",
+
+  "itemGroup.tutorialtab": "Zircon Tutorial Tab"
 }

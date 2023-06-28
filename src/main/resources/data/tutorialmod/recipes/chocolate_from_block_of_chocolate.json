@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chocolate",
+  "ingredients": [
+    {
+      "item": "tutorialmod:block_of_chocolate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tutorialmod:chocolate"
+  }
+}
